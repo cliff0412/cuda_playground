@@ -2,7 +2,7 @@
 #include <chrono>
 #include <iostream>
 
-#define N 10
+#define N 2500
 
 __global__ void vector_add(float *out, float *a, float *b, int n)
 {
